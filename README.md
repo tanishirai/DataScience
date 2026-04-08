@@ -66,7 +66,7 @@ ds-project/
   `src/03_train_models.py`  
   Model evaluation including classification metrics, ROC curves, and T-tests  
 
-- **DEVASHISH ASWAL [23BCE10273]** - did'nt join the group  
+- **Devashish Aswal [23BCE10273]** - didn't join the group  
 
 ---
 
