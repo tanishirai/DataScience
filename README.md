@@ -142,7 +142,7 @@ For visual analysis and insights, use the notebook:
 notebooks/01_exploratory_data_analysis.ipynb
 ```
 
-**Note:** Ensure that Steps 1 and 2 have been completed before running the notebook.
+**Note:** Ensure that Steps 1 and 2 have been completed before running the jupyter notebook.
 
 ---
 
