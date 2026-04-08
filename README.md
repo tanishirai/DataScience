@@ -44,27 +44,29 @@ ds-project/
 
 ---
 
-## Team Contributions
+## 👥 Team Contributions
 
-- **Tanishi Rai [23BCE10299]**  
-  `src/01_data_cleaning.py`  
-  Data integration, null/duplicate handling, and memory optimization via downcasting  
+This project was built collaboratively, covering an end-to-end data science lifecycle. Below are the specific contributions and model ownership for each team member:
 
-- **Kavyansh Vats [23BCE10301]**  
-  `src/02_preprocessing.py`  
-  Label encoding, feature scaling, and PCA implementation  
+* **Tanishi Rai [23BCE10299]** *Files:* `src/01_data_cleaning.py`, `src/03_train_models.py`  
+  * *Data Engineering:* Handled data integration, null/duplicate handling, and memory optimization via aggressive downcasting.  
+  * *Machine Learning:* Implemented the **Naive Bayes Classifier** (GaussianNB) leveraging the scaled PCA features.
 
-- **Ronak Kamboj [23BCE10263]**  
-  `src/02_preprocessing.py`, `notebooks/`  
-  Discretization (qcut binning) and EDA visualizations  
+* **Kavyansh Vats [23BCE10301]** *Files:* `src/02_preprocessing.py`, `src/03_train_models.py`  
+  * *Data Transformation:* Engineered the Label Encoding, Feature Scaling (StandardScaler), and Principal Component Analysis (PCA).  
+  * *Machine Learning:* Developed and trained the **Decision Tree Classifier** for non-linear predictions.
 
-- **Kasak Singh [23BCE10250]**  
-  `src/03_train_models.py`  
-  Model training pipeline and dataset splitting  
+* **Ronak Kamboj [23BCE10263]** *Files:* `src/02_preprocessing.py`, `src/03_train_models.py`, `notebooks/`  
+  * *Data Discretization & EDA:* Handled `qcut` binning and built the Exploratory Data Analysis visualizations.  
+  * *Model Visualization:* Extracted prediction arrays to generate comparative **Confusion Matrices** and **K-Means Scatter Plots**.
 
-- **Sanjiban Ghosh [23BCE10267]**  
-  `src/03_train_models.py`  
-  Model evaluation including classification metrics, ROC curves, and T-tests  
+* **Kasak Singh [23BCE10250]** *Files:* `src/03_train_models.py`  
+  * *Pipeline Setup:* Architected the core model training pipeline and 80/20 dataset splitting logic.  
+  * *Machine Learning:* Tuned and trained both the **Logistic Regression** baseline classifier and the **K-Nearest Neighbors (KNN)** model.
+
+* **Sanjiban Ghosh [23BCE10267]** *Files:* `src/03_train_models.py`  
+  * *Unsupervised Learning:* Engineered the **K-Means Clustering** model to map natural groupings in the network traffic.  
+  * *Statistical Evaluation:* Built the rigorous evaluation suite, including classification metrics, multiclass **ROC Curves**, and Paired **T-Tests** for model comparison.
 
 - **Devashish Aswal [23BCE10273]** - didn't join the group  
 
