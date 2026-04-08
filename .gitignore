@@ -1,0 +1,12 @@
+# Ignore massive data files
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
